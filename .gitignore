@@ -1,1 +1,6 @@
 notebooks/
+build/
+dist/
+*.egg-info/
+pic2prose/__pycache__/
+.DS_Store
