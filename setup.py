@@ -7,9 +7,9 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'Enables real-world data collection, bridges the gap between OCR and NLP, enabling you to convert text from any image to ready to use nlp data structures.'
-LONG_DESCRIPTION = 'A package that can take in images and build a corpus and produce nlp datastructures for direct use in experimentation and model training.'
+LONG_DESCRIPTION = 'Enables real-world data collection, bridges the gap between OCR and NLP, enabling you to convert text from any image to ready to use nlp data structures.'
 
 # Setting up
 setup(
@@ -19,7 +19,7 @@ setup(
     author_email="<rohitnmishra2@gmail.com>",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
-    long_description=LONG_DESCRIPTION,
+    long_description=long_description,
     packages=find_packages(),
     install_requires=['easyocr', 'numpy'],
     keywords=['python', 'images', 'text', 'nlp', 'natural', 'language', 'lexicon'],
