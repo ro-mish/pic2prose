@@ -8,7 +8,7 @@ Take any image with text, use p2p to generate NLP datastructures ready for use i
 pip install pic2prose
 ```
 
-Open up your favorite editor, import, and build a robust corpus.
+Open up your favorite editor, import, and build a robust corpus. Below are a few useful operations.
 ```
 from pic2prose.structures import *
 
@@ -22,7 +22,7 @@ corpus.get_co_occurrence_matrix()
 # generate tf-idf matrix
 corpus.get_tfidf_matrix()
 
-# one-hot encodings
+# generate one-hot encodings
 corpus.one_hot_encode()
 ```
 
