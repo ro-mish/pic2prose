@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pic2prose/__init__.py
+pic2prose/structures.py
+pic2prose.egg-info/PKG-INFO
+pic2prose.egg-info/SOURCES.txt
+pic2prose.egg-info/dependency_links.txt
+pic2prose.egg-info/requires.txt
+pic2prose.egg-info/top_level.txt
