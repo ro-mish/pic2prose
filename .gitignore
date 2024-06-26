@@ -3,4 +3,4 @@ build/
 dist/
 pic2prose.egg-info/
 pic2prose/__pycache__/
-.DS_Store
+.DS_Store/
