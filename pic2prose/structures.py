@@ -31,6 +31,7 @@ class Corp:
         corpus = str(" ".join([i[1] for i in img_out]))
         
         del img_out
+        del reader
         
         return corpus
     
