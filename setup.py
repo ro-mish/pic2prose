@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.2'
+VERSION = '1.0.1'
 DESCRIPTION = 'Enables real-world data collection, bridges the gap between OCR and NLP, enabling you to convert text from any image to ready to use nlp data structures.'
 LONG_DESCRIPTION = 'Enables real-world data collection, bridges the gap between OCR and NLP, enabling you to convert text from any image to ready to use nlp data structures.'
 
